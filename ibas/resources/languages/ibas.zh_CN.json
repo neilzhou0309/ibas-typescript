@@ -1,52 +1,196 @@
-{
-  "sys_bo_not_registered": "业务对象[{0}]没有注册",
-  "sys_bo_type_invalid": "业务对象[{0}]的注册类型无效",
-  "sys_cannot_create_mapping_type_instance": "无法创建映射类型实例",
-  "sys_cannot_converted_to_type": "不能把[{1}]转换到类型[{0}]",
-  "sys_data_converter_parsing_faild": "数据转换者的解析失败",
-  "sys_load_config_file_faild": "读取配置文件失败[{0} - {1}]",
-  "sys_load_config_file_successful": "读取配置文件成功",
-  "sys_load_language_file_faild": "读取语言文件[{2}]失败[{0} - {1}]",
-  "sys_load_language_file_successful": "读取语言文件[{0}]成功",
-  "sys_invalid_parameter": "无效的参数[{0}]",
-  "sys_invalid_data_converter": "无效的数据转换者",
-  "sys_invaild_mapping_type": "[{0}]的映射对象类型无效",
-  "sys_not_parsed_data": "没有解析的数据[{0}]",
-  "sys_not_converted_data": "没有转换的数据[{0}]",
-  "sys_network_error": "服务器资源不可用，请稍后重试",
-  "sys_server_internal_error": "服务器内部错误，请检查调用参数",
-  "sys_unsupported_operation": "不支持的操作",
-  "sys_operation_not_allowed_on_offline": "处于离线状态，不允许执行此操作",
-  "sys_unrecognized_data": "不能识别的数据",
-  "sys_unable_to_parse_data": "[{0}]无法被解析",
-  "sys_unable_to_convert_data": "[{0}]无法被转换",
-  "sys_invaild_judgment_link_bracket": "无效的括号数[{0}]",
-  "sys_invaild_judgment_link_conditions": "无效的判断链条件",
-  "sys_application_no_services": "应用[{0}]没有匹配的服务",
-  "sys_application_view_was_displayed": "应用[{0}]的视图已经显示",
-  "sys_getting_available_services": "正在获取[{0}]的可用服务",
-  "sys_invalid_view_shower": "应用[{0}]的视图显示者无效",
-  "sys_invalid_view": "应用[{0}]的视图无效",
-  "sys_invalid_view_data": "应用[{0}]的视图数据无效",
-  "sys_invalid_view_navigation": "应用[{0}]的视图导航无效",
-  "sys_invalid_view_query_panel": "无效的查询面板",
-  "sys_not_provided_display_service_method": "没有提供显示服务的方法",
-  "sys_business_rule_required": "要求值验证",
-  "sys_business_rule_required_error": "[{0}]没有输入值",
-  "sys_business_rule_required_elements": "要求拥有元素验证",
-  "sys_business_rule_required_elements_error": "[{0}]没有元素",
-  "sys_business_rule_min_value": "最小值验证",
-  "sys_business_rule_min_value_error": "[{0}]的值[{1}]低于最小值[{2}]",
-  "sys_business_rule_max_value": "最大值验证",
-  "sys_business_rule_max_value_error": "[{0}]的值[{1}]超过最大值[{2}]",
-  "sys_business_rule_max_length": "最大长度验证",
-  "sys_business_rule_max_length_error": "[{0}]的值[{1}]超过最大长度[{2}]",
-  "sys_business_rule_multiplication": "乘法运算",
-  "sys_business_rule_division": "除法运算",
-  "sys_business_rule_subtraction": "减法运算",
-  "sys_business_rule_summation": "求和运算",
-  "sys_business_rule_sum_elements": "集合元素属性求和",
-  "sys_business_rule_multiplicative_deduction": "乘除法推导",
-  "sys_business_rule_additive_deduction": "加减法推导",
-  "sys_business_rule_rounding_off": "数值小数位舍入"
-}
+[
+  {
+    "sys_bo_not_registered": "业务对象[{0}]没有注册",
+    "sys_bo_type_invalid": "业务对象[{0}]的注册类型无效",
+    "sys_cannot_create_mapping_type_instance": "无法创建映射类型实例",
+    "sys_cannot_converted_to_type": "不能把[{1}]转换到类型[{0}]",
+    "sys_data_converter_parsing_faild": "数据转换者的解析失败",
+    "sys_load_config_file_faild": "读取配置文件失败[{0} - {1}]",
+    "sys_load_config_file_successful": "读取配置文件成功",
+    "sys_load_language_file_faild": "读取语言文件[{2}]失败[{0} - {1}]",
+    "sys_load_language_file_successful": "读取语言文件[{0}]成功",
+    "sys_invalid_parameter": "无效的参数[{0}]",
+    "sys_invalid_data_converter": "无效的数据转换者",
+    "sys_invaild_mapping_type": "[{0}]的映射对象类型无效",
+    "sys_not_parsed_data": "没有解析的数据[{0}]",
+    "sys_not_converted_data": "没有转换的数据[{0}]",
+    "sys_network_error": "服务器资源不可用，请稍后重试",
+    "sys_server_internal_error": "服务器内部错误，请检查调用参数",
+    "sys_unsupported_operation": "不支持的操作",
+    "sys_operation_not_allowed_on_offline": "处于离线状态，不允许执行此操作",
+    "sys_unrecognized_data": "不能识别的数据",
+    "sys_unable_to_parse_data": "[{0}]无法被解析",
+    "sys_unable_to_convert_data": "[{0}]无法被转换",
+    "sys_invaild_judgment_link_bracket": "无效的括号数[{0}]",
+    "sys_invaild_judgment_link_conditions": "无效的判断链条件",
+    "sys_application_no_services": "应用[{0}]没有匹配的服务",
+    "sys_application_view_was_displayed": "应用[{0}]的视图已经显示",
+    "sys_getting_available_services": "正在获取[{0}]的可用服务",
+    "sys_invalid_view_shower": "应用[{0}]的视图显示者无效",
+    "sys_invalid_view": "应用[{0}]的视图无效",
+    "sys_invalid_view_data": "应用[{0}]的视图数据无效",
+    "sys_invalid_view_navigation": "应用[{0}]的视图导航无效",
+    "sys_invalid_view_query_panel": "无效的查询面板",
+    "sys_not_provided_display_service_method": "没有提供显示服务的方法",
+    "sys_business_rule_required": "要求值验证",
+    "sys_business_rule_required_error": "[{0}]没有输入值",
+    "sys_business_rule_required_elements": "要求拥有元素验证",
+    "sys_business_rule_required_elements_error": "[{0}]没有元素",
+    "sys_business_rule_min_value": "最小值验证",
+    "sys_business_rule_min_value_error": "[{0}]的值[{1}]低于最小值[{2}]",
+    "sys_business_rule_max_value": "最大值验证",
+    "sys_business_rule_max_value_error": "[{0}]的值[{1}]超过最大值[{2}]",
+    "sys_business_rule_max_length": "最大长度验证",
+    "sys_business_rule_max_length_error": "[{0}]的值[{1}]超过最大长度[{2}]",
+    "sys_business_rule_multiplication": "乘法运算",
+    "sys_business_rule_division": "除法运算",
+    "sys_business_rule_subtraction": "减法运算",
+    "sys_business_rule_summation": "求和运算",
+    "sys_business_rule_sum_elements": "集合元素属性求和",
+    "sys_business_rule_multiplicative_deduction": "乘除法推导",
+    "sys_business_rule_additive_deduction": "加减法推导",
+    "sys_business_rule_rounding_off": "数值小数位舍入"
+  },
+  {
+    "em_messagelevel_fatal": "严重错误",
+    "em_messagelevel_error": "错误",
+    "em_messagelevel_warn": "警告",
+    "em_messagelevel_info": "消息",
+    "em_messagelevel_debug": "调试信息"
+  },
+  {
+    "em_conditionoperation_none": "无",
+    "em_conditionoperation_equal": "等于",
+    "em_conditionoperation_grater_than": "大于",
+    "em_conditionoperation_less_than": "小于",
+    "em_conditionoperation_grater_equal": "大于等于",
+    "em_conditionoperation_less_equal": "小于等于",
+    "em_conditionoperation_not_equal": "不等于",
+    "em_conditionoperation_contain": "包含",
+    "em_conditionoperation_not_contain": "不包含",
+    "em_conditionoperation_start": "开始为",
+    "em_conditionoperation_end": "结束为",
+    "em_conditionoperation_is_null": "是空",
+    "em_conditionoperation_not_null": "非空"
+  },
+  {
+    "em_conditionrelationship_none": "无",
+    "em_conditionrelationship_and": "且",
+    "em_conditionrelationship_or": "或"
+  },
+  {
+    "em_sorttype_descending": "降序",
+    "em_sorttype_ascending": "升序"
+  },
+  {
+    "em_yesno_no": "否",
+    "em_yesno_yes": "是"
+  },
+  {
+    "em_documentstatus_planned": "计划",
+    "em_documentstatus_released": "下达",
+    "em_documentstatus_finished": "完成",
+    "em_documentstatus_closed": "结算"
+  },
+  {
+    "em_bostatus_open": "未清",
+    "em_bostatus_closed": "结算"
+  },
+  {
+    "em_approvalstepstatus_pending": "挂起的",
+    "em_approvalstepstatus_processing": "审批中",
+    "em_approvalstepstatus_approved": "已批准",
+    "em_approvalstepstatus_rejected": "已拒绝",
+    "em_approvalstepstatus_skipped": "已跳过"
+  },
+  {
+    "em_approvalstatus_unaffected": "不影响",
+    "em_approvalstatus_cancelled": "已取消",
+    "em_approvalstatus_processing": "审批中",
+    "em_approvalstatus_approved": "已批准",
+    "em_approvalstatus_rejected": "已拒绝"
+  },
+  {
+    "em_approvalresult_processing": "审批中",
+    "em_approvalresult_approved": "已批准",
+    "em_approvalresult_rejected": "已拒绝"
+  },
+  {
+    "em_direction_in": "入",
+    "em_direction_out": "出"
+  },
+  {
+    "em_judmentoperation_equal": "等于",
+    "em_judmentoperation_not_equal": "不等于",
+    "em_judmentoperation_grater_than": "大于",
+    "em_judmentoperation_less_than": "小于",
+    "em_judmentoperation_grater_equal": "大于等于",
+    "em_judmentoperation_less_equal": "小于等于",
+    "em_judmentoperation_begin_with": "开始于",
+    "em_judmentoperation_not_begin_with": "不是开始于",
+    "em_judmentoperation_end_with": "结束于",
+    "em_judmentoperation_not_end_with": "不是结束于",
+    "em_judmentoperation_contain": "包含",
+    "em_judmentoperation_not_contain": "不包含",
+    "em_judmentoperation_and": "与",
+    "em_judmentoperation_or": "或"
+  },
+  {
+    "em_dbfieldtype_unknown": "未知",
+    "em_dbfieldtype_alphanumeric": "字母数字",
+    "em_dbfieldtype_memo": "长字符串",
+    "em_dbfieldtype_numeric": "数字",
+    "em_dbfieldtype_date": "日期",
+    "em_dbfieldtype_decimal": "小数",
+    "em_dbfieldtype_bytes": "字节"
+  },
+  {
+    "em_plantform_combination": "平板和桌面",
+    "em_plantform_desktop": "桌面",
+    "em_plantform_phone": "手机",
+    "em_plantform_tablet": "平板"
+  },
+  {
+    "em_messagetype_information": "消息",
+    "em_messagetype_success": "成功",
+    "em_messagetype_warning": "警告",
+    "em_messagetype_question": "问询"
+  },
+  {
+    "em_messageaction_abort": "终止",
+    "em_messageaction_cancel": "取消",
+    "em_messageaction_close": "关闭",
+    "em_messageaction_delete": "删除",
+    "em_messageaction_ignore": "忽略",
+    "em_messageaction_no": "否",
+    "em_messageaction_ok": "确定",
+    "em_messageaction_retry": "重试",
+    "em_messageaction_yes": "是"
+  },
+  {
+    "em_privilegesource_module": "模块设置",
+    "em_privilegesource_application": "应用设置",
+    "em_privilegesource_business_object": "业务对象设置"
+  },
+  {
+    "em_authorisetype_all": "全部",
+    "em_authorisetype_read": "只读/引用",
+    "em_authorisetype_none": "无"
+  },
+  {
+    "em_choosetype_single": "单选",
+    "em_choosetype_multiple": "多选",
+    "em_choosetype_none": "无选"
+  },
+  {
+    "em_viewmode_common": "一般",
+    "em_viewmode_view": "查看"
+  },
+  {
+    "em_touchmovedirection_up": "上",
+    "em_touchmovedirection_down": "下",
+    "em_touchmovedirection_left": "左",
+    "em_touchmovedirection_right": "右",
+    "em_touchmovedirection_none": "无"
+  }
+]

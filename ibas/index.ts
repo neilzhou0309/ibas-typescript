@@ -80,8 +80,7 @@ namespace ibas {
                 }
                 // 加载资源
                 i18n.load([
-                    strings.format("{0}/resources/languages/ibas.json", urls.rootUrl("/ibas/index")),
-                    strings.format("{0}/resources/languages/enums.json", urls.rootUrl("/ibas/index"))
+                    strings.format("{0}/resources/languages/ibas.json", urls.rootUrl("/ibas/index"))
                 ], () => {
                     callBack();
                 });
@@ -99,8 +98,7 @@ namespace ibas {
             }
             // 加载资源
             i18n.load([
-                strings.format("{0}/resources/languages/ibas.json", urls.rootUrl("/ibas/index")),
-                strings.format("{0}/resources/languages/enums.json", urls.rootUrl("/ibas/index"))
+                strings.format("{0}/resources/languages/ibas.json", urls.rootUrl("/ibas/index"))
             ]);
         }
     }
