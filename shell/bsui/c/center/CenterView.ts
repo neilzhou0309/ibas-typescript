@@ -193,8 +193,13 @@ namespace shell {
                                                 }
                                                 visible = true;
                                             });
-                                            if (!ibas.strings.isEmpty(searchText) && item.getText().indexOf(searchText) > 0) {
+                                            if (!ibas.strings.isEmpty(searchText) && item.getText().indexOf(searchText) >= 0) {
                                                 visible = true;
+                                                item.getItems().forEach((sItem) => {
+                                                    if (sItem.getVisible() === false) {
+                                                        sItem.setVisible(true);
+                                                    }
+                                                });
                                             }
                                             item.setVisible(visible);
                                         });
