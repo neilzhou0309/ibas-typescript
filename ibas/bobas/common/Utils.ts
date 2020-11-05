@@ -604,6 +604,9 @@ namespace ibas {
                 }
                 let maxLevel: number = config.get(CONFIG_ITEM_ENUM_MAX_LEVEL, 5);
                 let getName: Function = function (data: any, level: number = 0): string {
+                    if (typeof (data) !== "object") {
+                        return undefined;
+                    }
                     for (let item in data) {
                         if (strings.isWith(item, "webkit", undefined)) {
                             continue;
